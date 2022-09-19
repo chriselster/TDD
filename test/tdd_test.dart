@@ -4,7 +4,7 @@ import 'package:tdd/money.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('multiply', () {
+  test('multiplication', () {
     Money five = Money.dollar(5);
     expect(Money.dollar(10), equals(five.times(2)));
     expect(Money.dollar(15), equals(five.times(3)));
